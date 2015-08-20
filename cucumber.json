@@ -1,0 +1,196 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Adding range on auto discovery page",
+    "line": 1,
+    "description": "",
+    "id": "adding-range-on-auto-discovery-page",
+    "uri": "features/Test/autodisc.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "I add a range of 172.28.113.158",
+        "line": 3,
+        "description": "",
+        "tags": [
+          {
+            "name": "@discovery",
+            "line": 2
+          }
+        ],
+        "id": "adding-range-on-auto-discovery-page;i-add-a-range-of-172.28.113.158",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the auto-disc page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5397345316
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I delete old filters",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9720216429
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I Enter Range/Filter Name \"testrange\", Type \"include\" and Range/Filter Pattern \"172.28.113.158\" and click the button",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 27,
+                  "val": "testrange"
+                },
+                {
+                  "offset": 45,
+                  "val": "include"
+                },
+                {
+                  "offset": 80,
+                  "val": "172.28.113.158"
+                }
+              ],
+              "location": "features/step_definitions/auto_disc_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8773445893
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I check the auto-commit radio button",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212430472
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click Go button",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4213225044
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I check the checkbox of Accept and click go",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9451949423
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the close button is visible and I click on that",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32053490648
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Verifying the results on the status viewer page",
+        "line": 12,
+        "description": "",
+        "tags": [
+          {
+            "name": "@discovery",
+            "line": 11
+          }
+        ],
+        "id": "adding-range-on-auto-discovery-page;verifying-the-results-on-the-status-viewer-page",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I navigate to the status viewer page",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4760100605
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on the Search button",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5228127209
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I enter the host ip \"172.28.113.158\" in the text field",
+            "line": 15,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 21,
+                  "val": "172.28.113.158"
+                }
+              ],
+              "location": "features/step_definitions/auto_disc_steps.rb:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4536350117
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the host is visible in the results",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/auto_disc_steps.rb:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22433240410
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

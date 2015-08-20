@@ -1,0 +1,6191 @@
+[
+  {
+    "source": "^I log in with \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_ldap_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the dashboard page for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_ldap_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login with unauthorized \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_ldap_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see an error message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_ldap_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the auto\\-disc page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am on the auto-disc page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I delete old filters$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:5",
+    "steps": [
+      {
+        "name": "I delete old filters",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Enter Range\\/Filter Name \"(.*?)\", Type \"(.*?)\" and Range\\/Filter Pattern \"(.*?)\" and click the button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:11",
+    "steps": [
+      {
+        "name": "I Enter Range/Filter Name \"testrange\", Type \"include\" and Range/Filter Pattern \"172.28.113.158\" and click the button",
+        "args": [
+          {
+            "offset": 27,
+            "val": "testrange"
+          },
+          {
+            "offset": 45,
+            "val": "include"
+          },
+          {
+            "offset": 80,
+            "val": "172.28.113.158"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I check the auto\\-commit radio button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:19",
+    "steps": [
+      {
+        "name": "I check the auto-commit radio button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click Go button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:25",
+    "steps": [
+      {
+        "name": "I click Go button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I check the checkbox of Accept and click go$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:32",
+    "steps": [
+      {
+        "name": "I check the checkbox of Accept and click go",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the close button is visible and I click on that$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:52",
+    "steps": [
+      {
+        "name": "the close button is visible and I click on that",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to the status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:60",
+    "steps": [
+      {
+        "name": "I navigate to the status viewer page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on the Search button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:64",
+    "steps": [
+      {
+        "name": "I click on the Search button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the host ip \"(.*?)\" in the text field$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:71",
+    "steps": [
+      {
+        "name": "I enter the host ip \"172.28.113.158\" in the text field",
+        "args": [
+          {
+            "offset": 21,
+            "val": "172.28.113.158"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the host is visible in the results$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_disc_steps.rb:80",
+    "steps": [
+      {
+        "name": "the host is visible in the results",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I create a duplicate range-filter with name \"(.+?)\", type \"(.+?)\" and range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I try to add the Range\\/Filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the duplicate message error for \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I use the default discovery definition$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a list of hosts to this definition with name \"(.+?)\", type \"(.+?)\" and range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:38",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the mode to auto$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the hosts \"(.+?)\" and \"(.+?)\" for the filter \"(.+?)\" should be visible in status viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:53",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove the hosts \"(.+?)\" - \"(.+?)\" and \"(.+?)\" - \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:67",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a discovery definition \"(.+?)\" and select \"(.+?)\" filter of type \"(.+?)\" and range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:75",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Uncheck definition methods$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:88",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^save the definition$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:96",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I launch go$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:102",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see no method assign message error for \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:108",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add an address filter \"(.+?)\" of type \"(.+?)\" with range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:118",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new address filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:127",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see \"(.+?)\"-\"(.+?)\" but not the excluded host \"(.+?)\" in status viewer and host page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:136",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove the added hosts \"(.+?)\" and \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:154",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the mode to auto commit$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:162",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I specify address range$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:168",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start the discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:174",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the hosts \"(.+?)\" in Status viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:185",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove the filter \"(.+?)\" and the host \"(.+?)\"-\"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:194",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the mode to interactive$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:205",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I launch the Auto Discovery with interactive mode$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:209",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select process records$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:220",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select process records and continue$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:231",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Auto Discovery UI shows properly$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:239",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add two overlapping ranges \"(.+?)\" for filter name \"(.+?)\" of type \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:247",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Uncheck SNMP definition method$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:257",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the repeated hosts for the range \"(.+?)\" should be autodiscovered once$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:265",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see a correct auto discover without invalid range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:276",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Auto Discovery page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:287",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I launch the Auto Discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:291",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I commit the results$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:300",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Automation page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:309",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the \"(.+)\" button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:313",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to the correct page for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:329",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new automation schema \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:341",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new automation template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:347",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save it as a template$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:353",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create an automation schema \"(.+)\" using template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:362",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:370",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the schema \"(.+)\" should be successfully \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:385",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new discovery defintion using \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:396",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit the different parameters for host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:407",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the changes should be reflected on Status Viewer for host \"(.+)\"-\"(.+)\" and Host Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:416",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I check the Nmap TCP definition method$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:480",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove filter \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:486",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the default schema$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:493",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I view the data source file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:500",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the data source file should not exist$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:506",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the entry for the host \"(.+)\" \"(.+)\" should exist in the data source file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:513",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Enable Overrides and modify the different parameters$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:520",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^changes should reflect on Status Viewer for host \"(.+)\" \"(.+)\" and Host Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:527",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.+)\" the definition \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:591",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the definition \"(.+)\" should be \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:628",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new auto discovery definition \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:641",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the Nmap scan timeout mode to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:653",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the Nmap scan type mode to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:665",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I launch Auto Discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:683",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the discovery should show results of SNMP only$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:689",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the discovery should show results of Nmap only$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:723",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Uncheck Nmap and check SNMP definition method$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:750",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit default discovery defintion$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:760",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" Nmap and \"(.+)\" SNMP definition method$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:787",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit the default discovery definition$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:812",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the Traceroute Option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:819",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the max hops and timeout fields should be \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:830",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I input \"(.+)\" in max hops and timeouts fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:842",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^there should be a validation message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:850",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete \"(.+)\"-\"(.+)\" host from the GW application$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/auto_discovery_steps.rb:856",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Cloud Hub page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select \"(.+)\" for new connection$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start new configuration and set all fields as \"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:24",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Storage View, Network View and Resource Pool View$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:37",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save the connection$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:46",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^test connection is done$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:55",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify connection is established$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:63",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to cloud hub home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:69",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should navigate to the home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:76",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the connection - \"(.+)\" created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:83",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the connection - \"(.+)\" added should be in Stop state$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:102",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start the new connection - \"(.+)\" created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:111",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^connection - \"(.+)\" should be started$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:126",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^ESX-Vermont servers should be displayed on the Status viewer and Event console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:137",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click modify button of connection - \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:168",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click next button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:180",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify Cloud Hub Configuration page for \"(.*?)\" should be opened$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:187",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click delete button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:200",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify connection - \"(.+)\" should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:209",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select one \"(.+)\" service \"(.+)\" and set thresholds as \"(.+)\" and \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:221",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove one \"(.+)\" service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:241",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^save it$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:251",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify changes are done to \"(.+)\" on Status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:259",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a vm service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:288",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select RedHat for new connection$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:312",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start new redhat configuration and set all fields as \"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:322",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^rhev servers should be displayed on the Status viewer and Event console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:340",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I move to next page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:378",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter value in hypervisor warning threshold and critical threshold as\"(.+)\",\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:386",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter value in vm warning threshold and critical threshold as\"(.+)\",\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:393",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^threshold validation messages should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:401",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify connection is not established$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:410",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^different validation messages should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:427",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^check interval validation message should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:443",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Status page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:451",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Event page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:455",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify the \"(.+?)\" hosts on Status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:459",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the hosts should be visible$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:465",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify the \"(.+?)\" hosts on Event console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:469",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete all other connections created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:477",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start new configuration and set fields as \"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:488",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^OS-H and OS-M servers should be displayed on the Status viewer and Event console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:508",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify Openstack connection is not established$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:526",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove a \"(.+)\" service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:532",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select \"(.+)\" service \"(.+)\" and set thresholds as \"(.+)\" and \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:542",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify changes are applied for \"(.+)\" on Status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:560",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clear all fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:585",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clear all the fields$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/cloud_hub_steps.rb:597",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Profiles Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:8",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply \"(.+)\" to a host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the copy of \"(.+)\" to a host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:35",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the changes made for \"(.+)\" should reflect in Status Viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:56",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the changes made for copy of \"(.+)\" should reflect in Status Viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:67",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:79",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the \"(.+)\" service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:92",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I search for a service with keyword \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:110",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^all the services having the \"(.+)\" in their name should be displayed in search results$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:117",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clone the service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:135",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^a copy of the service \"(.+)\" should be created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:145",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a service template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:149",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the template \"(.+)\" to the copy of \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:155",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the template \"(.+)\" should be applied successfully for renamed copy of \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:172",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the service template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:182",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^template \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:216",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a service dependency \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:229",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the dependency \"(.+)\" to service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:235",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the service dependency \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:252",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^delete the assigned service dependency \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:286",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the dependency \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:297",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^remove dependency from \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:323",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.+)\" should be removed successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:334",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply dependency \"(.+)\" to host localhost for service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:339",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^remove dependency from localhost for service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:354",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^there should be a validation message due to existing dependency$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:366",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a service extended info template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:371",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the extended info template \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:377",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the extended info template \"(.+)\" to service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:412",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the service extended info template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:429",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove the service extended info template from service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:476",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the info template \"(.+)\" should be removed successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:491",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the service group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:496",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:527",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Escalation page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:544",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new service escalation \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:548",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the escalation \"(.+)\" should be created successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:554",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a service escalation tree \"(.+)\" using \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:558",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the escalation tree \"(.+)\" should be created successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:565",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I assign the service escalation tree \"(.+)\" to service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:572",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the escalation tree \"(.+)\" should be applied successfully for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:587",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I assign the escalation tree \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:598",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^tree \"(.+)\" should be assigned to service group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:602",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I assign service group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:614",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^there should be an error message for duplicate service group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:623",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^there should be a validation message for illegal characters$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:629",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the service escalation \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:639",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the service escalation \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:681",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the service escalation tree \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:703",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the service escalation tree \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:729",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I rename the service escalation tree \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:746",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the service escalation tree \"(.+)\" should be renamed successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:764",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:778",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new Service Group with name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:788",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the service \"(.+)\" of host \"(.+)\" to the new Service Group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:798",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the service group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:806",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove the service \"(.+)\" of host \"(.+)\" from service group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:818",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove member host \"(.+)\" and add \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:839",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that host \"(.+)\" is a member of hostgroup \"(.+)\" on \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:848",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the hostgroup \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:865",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change the contact group from \"(.+)\" to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:877",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the Contact Group is \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:886",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the hosts except the host localhost to the new host group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:892",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I copy the host group with name copy-\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:911",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify the copy of hostgroup \"(.+)\" has been added to the GW portal$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:927",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I rename the hostgroup to renamed-\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:958",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that hostgroup has been renamed to renamed-\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:968",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the \"(.+)\" option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1007",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new host \"(.+)\" with IP address \"(.+)\" and services \"(.+)\" and \"(.+)\" as a \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1012",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the host \"(.+)\" has been added to the GW portal$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1054",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify ip address of host \"(.+)\" has been updated to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1077",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I attempt to add a new host with name \"(.+)\" with IP address \"(.+)\" and services \"(.+)\" and \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1097",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^a host wizard error message for host \"(.+)\" should be generated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1107",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the host \"(.+)\" of hostgroup \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1114",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1127",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the host \"(.+)\" has been deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1137",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clone the host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1149",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the clone of host \"(.+)\" with services \"(.+)\" and \"(.+)\" has been added to the GW portal$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1164",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the clone of host \"(.+)\" of hostgroup \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1192",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify host \"(.+)\" exists as a \"(.+)\" profile$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1211",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I search a host by \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1231",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the search output should be \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1239",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I rename the host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1248",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit host alias$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1259",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit host IP address as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1271",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change host template as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1278",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change its contact group from \"(.+)\" to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1286",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save the host editing$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1296",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save the service editing$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1302",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that changes to host \"(.+)\" have been saved with address as \"(.+)\" and template as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1308",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I revert the changes made with the host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1323",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select host \"(.+)\" to be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1363",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select and delete the service \"(.+)\" of host \"(.+)\" to be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1375",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the service \"(.+)\" of host \"(.+)\" has been deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1387",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I open the hosts.cfg file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1401",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify host \"(.+)\" with alias \"(.+)\" and ip \"(.+)\" and template \"(.+)\" on hosts.cfg file$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1409",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new Parent Child pair with \"(.+)\" as parent and \"(.+)\" as child$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1428",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that pair exists with \"(.+)\" as parent and \"(.+)\" as child$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1438",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the \"(.+)\" \"(.+)\" parent child pair$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1471",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the \"(.+)\" \"(.+)\" parent child pair$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1479",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that \"(.+)\" \"(.+)\" parent child pair has been deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1484",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new host template with name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1516",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that a new host template with name \"(.+)\" has been \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1580",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I copy the host template with name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1599",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the host template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1613",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I attempt to delete the host template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1629",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^an error message with respect to host \"(.+)\" is displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1644",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the host template \"(.+)\" for modifying$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1652",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I rename the host template to renamed-\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1660",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I change Max check attempts = \"(.+)\" and Check Interval = \"(.+)\" of the host template$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1670",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save the modifications$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1676",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify host template modifications have been made$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1681",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new host extended info template with name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1688",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that a new host extended info template with name \"(.+)\" has been \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1722",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" its host extended info template as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1740",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I copy the host extended info template with name copy-\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1752",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the host extended info template with name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/configuration_steps.rb:1764",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Contacts page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new contact \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact \"(.+)\" should be created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new contact group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact group \"(.+)\" should be created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Hosts page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:25",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add contact group to the hostgroup$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:29",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete Contact \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:35",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact \"(.+)\" should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete Contact group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:46",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact group \"(.+)\" should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:52",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" a contact group with name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:61",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^a new copy contact group with name \"(.+)\" should be created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:96",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the renamed contact group with name \"(.+)\" should exist$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:105",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I rename the contact group \"(.+)\" to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:115",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the modifications to contact group \"(.+)\" should exist$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:127",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the contact \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:137",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:171",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new contact template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:189",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the template \"(.+)\" should be created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:196",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the contact template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:214",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the contact template \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:255",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I assign the contact template \"(.+)\" to contact \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:275",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the contact template \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:288",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new host escalation \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:301",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation \"(.+)\" should be created successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:308",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a host escalation tree \"(.+)\" using \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:313",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation tree \"(.+)\" should be created successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:321",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I assign the host escalation tree \"(.+)\" to host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:330",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation tree \"(.+)\" should be applied successfully for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:347",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I assign the host escalation tree \"(.+)\" to host group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:362",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation tree \"(.+)\" should be applied successfully for host group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:377",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" the host escalation \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:391",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation \"(.+)\" should be \"(.+)\" successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:432",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I rename the host escalation tree \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:453",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation tree \"(.+)\" should be renamed successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:471",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the host escalation tree \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:483",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host escalation tree \"(.+)\" should be deleted successfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:501",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the cloned \"(.+)\" \"(.+)\" should preserve the contact group assignment \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/contacts_steps.rb:512",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable notifications from nagios main configuration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/control_steps.rb:2",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click save and next$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/control_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I disable notifications from nagios main configuration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/control_steps.rb:16",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable flap detection from nagios main configuration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/control_steps.rb:23",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I disable flap detection from nagios main configuration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/control_steps.rb:30",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Custom groups page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new custom group \"(.+)\" with type \"(.+)\" and children \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a custom group \"(.+)\" with type \"(.+)\" and children \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:46",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save and publish$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify status \"(.+)\" for custom group \"(.+)\" with type \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:67",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I have a Custom group to \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:100",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit custom group with name \"(.+)\" and add \"(.+)\" as a child$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:109",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that changes were done for custom group \"(.+)\" with type \"(.+)\"-\"(.+)\" and status \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:119",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the custom group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:156",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that custom group \"(.*?)\" with type \"(.*?)\" was deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:162",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create two Custom groups \"(.*?)\" of type \"(.*?)\" with child \"(.*?)\" and \"(.*?)\" of type \"(.*?)\" with child \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:186",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I try to edit two Custom groups at the same time$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:232",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^an error \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:245",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete two Custom groups \"(.*?)\" and \"(.*?)\" at the same time$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:251",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^a warning \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:264",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I try to create an identical custom group with name \"(.+)\" type \"(.+)\" and child \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:271",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^an error message should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:282",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a service custom group \"(.+)\" of type \"(.+)\" and child \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:289",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a custom group \"(.+)\" of type \"(.+)\" with the ones created before \"(.+)\" and \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:299",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the mixing children error$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:310",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete custom groups created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:316",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:325",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^it should not appear on Status viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:333",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter Host Group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:340",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the groups should be in order$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:346",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete \"(.+)\" Host group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:351",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete \"(.+)\" Service group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:364",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the existing custom group created and remove all its children$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:376",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save and publish the custom group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:387",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^an error message for selecting children should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:396",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a custom group \"(.*?)\" with type \"(.*?)\" and children \"(.*?)\" $",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:405",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the custom group created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:429",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should not open a hostgroup view and delete custom group created \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:437",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the custom group on Event Console of type \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:455",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the custom group should not be highlighted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/custom_groups_steps.rb:463",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start new docker configuration and set all fields as \"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\",\"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^servers should be displayed on the Status viewer and Event console with host prefix \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a \"(.+)\" service \"(.+)\" and set thresholds as \"(.+)\" and \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:28",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify changes are done to \"(.+)\" on Status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove \"(.+)\" service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:72",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the connection test-docker exists$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:83",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^host prefix validation message should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:90",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^validation message should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/docker_steps.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter \"(.+)\" under Applications$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select (\\d+) event$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:27",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I perform the action open log message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:43",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to operation status open filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:53",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I perform the action close log message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:65",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to operation status close filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:77",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the events selected must be display$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:88",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select all open events$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I search for the events with the message \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:103",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click the Search button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:110",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should only see events with the message \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:117",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on the new tab button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:123",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see the window for new tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:130",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I search for the events with the message \"(.*?)\" on the new tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:144",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should only see events with the message \"(.+)\" on the new tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:151",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Services Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:157",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I modify max check attempts and disable active checks in generic services$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:161",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Host Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:168",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I modify max check attempts and disable active checks in generic hosts$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:172",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I revert max check attempts and disable active checks in generic hosts$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:181",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a host and a service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:191",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select submit passive Check Result with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:206",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I submit and navigate to Event Console$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:214",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see an event gets displayed with status as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:222",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select submit host passive Check Result with \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:229",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter a new tab name \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:242",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the tab name gets updated as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:249",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I revert the change to the tab made above$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:260",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I run a blank search$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:268",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^an error message for running blank search is generated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:276",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter an invalid tab name$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:285",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^an error message gets generated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:293",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the tab name does not get updated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:302",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Actions button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:312",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Nagios Acknowledge option and fill in the acknowledge comment as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:319",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see acknowledgement comment \"(.+)\" gets updated in the comment column of event$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:340",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter All Events$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:348",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I search a device \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:356",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see all the events of device \"(.+)\" only are displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:365",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I perform the action accept log message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:374",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to operation status \"(.+)\" filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:385",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I revert the changes$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:407",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I perform the action notify log message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:417",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill in some values in textboxes and dropdowns$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:429",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Reset button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:442",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^all fields should get cleared$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:450",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Nagios Service Status Details page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:470",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the service \"(.+)\" of host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:475",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I submit passive check result for \"(.+)\" \"(.+)\" with \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:487",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see an event in \"(.+)\" status is generated on Event Console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:517",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I search for the events by severity and OpStatus and MonStatus$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:528",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I logout of GW portal$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:542",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see event is generated of host \"(.+)\" in status \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:551",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click On \"(.+)\" pane heading$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:566",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify (.+) pane has collapsed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:573",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I make a list of all the \"(.+)\" currently present$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:583",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify each \"(.+)\" present on Status Viewer is also visible on Event Console$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:625",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select All Events filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:645",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that events have been stopped$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:651",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I open a new browser window and generate an event \"(.+)\" for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:656",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify no new event is populated for \"(.+)\" in state \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:689",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I Resume Incoming Events$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:709",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that that new events are populated for \"(.+)\" in state \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:716",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Show Event Tile link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:763",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the host group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:770",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see all events of host \"(.+)\" only are displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:788",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Dashboard Enterprise View page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:809",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the group \"(.+)\" from the \"(.+)\" filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:814",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see all events of service \"(.+)\" only are displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:826",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the \"(.+)\" button on Event Console$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:847",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I fill in the comment as \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:867",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see comment \"(.+)\" gets updated in the comment column of \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/event_console_steps.rb:877",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Resources page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on Support$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the community support page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on My Preference page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit my profile with \"(.*?)\", \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I submit it$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:29",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit My GroundWork$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit my username with \"(.*?)\", \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save it$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:55",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Login page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:71",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on the Knowledge Base link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:76",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on the Case Manager link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:83",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on the Forums link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:90",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on the Groundwork link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to the Knowledge Base Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:105",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to the Case Manager Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:112",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to the Forums Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:121",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be redirected to the Groundwork home Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/homepage_steps.rb:133",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on License Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter a password \"(.+)\" for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on \"(.+)\" button to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.+)\" message should be displayed for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:50",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^last updated timestamp should be \"(.+)\" after \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:85",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^a new token should be generated for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:112",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^error message should be displayed for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:132",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter \"(.+?)\" as password under the Encryption Tool$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:139",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^a new encrypted password should be generated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/license_steps.rb:144",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I open hosts all filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see all the hosts$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I open group all filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:12",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see all the services$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Nagvis View Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:32",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hover the hostsGroup map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:44",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hover the \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:49",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the \"(.*?)\" summary state should be \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the \"(.*?)\" summary output should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:67",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the \"(.*?)\" map child information should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:75",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on \"(.*?)\" map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:84",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I hover \"(.*?)\" icon on \"(.*?)\" map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:93",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host \"(.*?)\" state should be \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:103",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host \"(.*?)\" output should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:110",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host \"(.*?)\" child information should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:118",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Service \"(.*?)\" state should be \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:126",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Service \"(.*?)\" output should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:133",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Service \"(.*?)\" child information should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:141",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Map \"(.*?)\" state should be \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:149",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Map \"(.*?)\" output should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:156",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Map \"(.*?)\" child information should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:164",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the map \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:172",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host Up \"(.*?)\" state should be \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:181",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host Up \"(.*?)\" output should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:189",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host Up \"(.*?)\" child information should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:198",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Host Up \"(.*?)\" \"(.*?)\" should match$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:206",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:216",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a gadget raw number icon for service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:225",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a gadget chart pie icon for service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:242",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a gadget bar icon for service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:259",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a gadget thermo icon for service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:276",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to see the map with the (\\d+) gadgets$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_advanced_steps.rb:293",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Views page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select \"(.+)\" and rename it with \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I save a map with \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the map with \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:28",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the map with \"(.+?)\" has been deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:42",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I import a map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:50",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the imported map \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:64",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I give user permission to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:79",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I give operator permission to \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:93",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I logout from current user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:107",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login with \"(.+)\" gwuser$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:114",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to see the \"(.+)\" map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:120",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login with admin$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:127",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I reset the user permission of \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:133",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit a object$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:148",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the object is modified$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:168",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I revert the changes made above$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:174",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the created map with name \"(.+?)\" should not be saved$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:195",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add an icon on newmap$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:203",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the host object$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:221",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify deleted host object$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:242",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add an icon service on newmap$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:248",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the service object service exists$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:268",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the serviceicon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:275",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify deleted service icon$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:289",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a hostline$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:295",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that the host object exists$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:316",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a line$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:323",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a line as map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:345",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a special textbox with \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:365",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify the textbox$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:388",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the textboxadded$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:394",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify deleted textboxadded$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:406",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I modify map with backgrnd \"(.+?)\" aliasname \"(.+?)\" color \"(.+?)\" mapiconset \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:412",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify modified map options \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:428",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a views background name \"(.+?)\" color \"(.+?)\" width \"(.+?)\" height \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:450",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a map with backgroundimage$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:464",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I upload a background image$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:478",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a map with uploadimage$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:490",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete created background \"(.+?)\" and \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:504",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I upload a shape$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:544",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a map with the shape$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:556",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the shape that cannot be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:570",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the shape$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:582",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I upload a shape with invalid format$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:596",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I see validation message$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:607",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I export a map to static$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:623",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the static map \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:641",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^error message appears appears saving invalid staticmap$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:656",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I make a parent child map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:670",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verfiy error message appears$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:684",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I make a container witout url with error$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:699",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I make a container$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:715",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify the weblink inside container$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:725",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the container$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:733",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify deleted container$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:753",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I make and verify stateless line$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:759",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete and verify stateless line$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:778",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select icon \"(.+?)\" and create \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:795",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify \"(.+?)\" and \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:801",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete \"(.+?)\" and verify \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:808",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select line \"(.+?)\" and create \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:815",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify the line \"(.+?)\" and \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:821",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete and verify the line$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:827",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add host \"(.+)\" of type icon \"(.+)\" on the map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:845",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clone the object \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:874",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete both the objects \"(.+)\" added$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:896",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the map should get renamed to name \"(.+)\" on the map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:913",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete \"(.+)\" icon on map$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/nagvis_steps.rb:919",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Net Hub page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/net_hub_steps.rb:2",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I start a new configuration and set all fields as \"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\",\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/net_hub_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^ODL-H and ODl-M servers should be displayed on the Status viewer and Event console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/net_hub_steps.rb:22",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^error messages should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/net_hub_steps.rb:49",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a \"(.+)\" service \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/net_hub_steps.rb:56",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify service is added to \"(.+)\" on the Status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/net_hub_steps.rb:69",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on profile page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a profile to import$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select host files to import$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:11",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^it should be added to Host Profiles$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:18",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select service files to import$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:25",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^it should be added to Service Profiles$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new host profile \"(.*?)\" with description \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:38",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select a host and save$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:44",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^host profile \"(.*?)\" should be added to that host on configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:50",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new service profile \"(.*?)\" with description \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:57",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select a service and save$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:63",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^service profile \"(.*?)\" should be added to that service on configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:69",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to new host profile created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:76",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select host profile$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:82",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete it$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:88",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^host profile \"(.*?)\" should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:94",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to new service profile created$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:102",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select service profile$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:108",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^service profile \"(.*?)\" should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/profile_steps.rb:114",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the report \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/reports_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the parameters for viewing the report \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/reports_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should be able to view the \"(.+)\" as selected$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/reports_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Monitor Enterprise license page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:7",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the license key$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:14",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the license key should be validated$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:46",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select show install info$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:60",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the correct build number$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:68",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I specify a filter \"(.+?)\" of type \"(.+?)\" and a Range\\/Filter Pattern \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:81",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^no errors should appear for \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:91",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Host Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove all hosts from the hosts groups except localhost$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:101",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new Host group \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:114",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the hosts except localhost to the new host group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:122",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.*?)\" the changes$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:133",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.*?)\" changes were \"(.*?)\" correctly$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:137",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Service Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:143",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new Service Group \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:148",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the services to the new Service Group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:179",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^service group should be created sucessfully$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:188",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the service group \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:194",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the service group should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:200",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on Control Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:207",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I commit new objects to Nagios$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:211",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the commit should be successful$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:218",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Event Console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:223",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter System under Applications$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:227",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see no errors$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:237",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter Nagios under Applications$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:252",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see there are events in this view$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:262",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I apply the filter \"(.*?)\" under \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:269",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Status Viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:283",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^all Hosts and Service states are set up$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:287",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^all states should not be on PENDING$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:295",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a Host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:302",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the RRD shown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:308",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select localhost$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:321",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see that Cacti Graphs shown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:328",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Dashboard page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:347",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I logout$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:351",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login with (.+) user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:357",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see Welcome, (.+) message on dashboard$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:363",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the \"(.+)\" page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:369",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select host \"(.+)\" on \"(.+)\" page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:379",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^selected host \"(.+)\" should be redirected to the Status Viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:419",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I remove host \"(.+)\" from \"(.+)\" page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:426",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the dashboard \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the dashboard subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:8",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the My Groundwork page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:15",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the my groundwork subtab \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:19",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the my groundwork subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^The event console page should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:33",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the status viewer page should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:40",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the nagvis view page should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:47",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Reports page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:54",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the reports \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:58",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the reports subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:65",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the autodiscovery \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:81",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the autodiscovery subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:87",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Configuration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:93",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the configuration \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:97",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the configuration subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:104",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the administration \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:111",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the administration subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:118",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Advanced page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:125",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the advanced \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:129",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the advanced subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:136",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Resources page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:143",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the resources \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:147",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the resources subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:154",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Business page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:162",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Business \"(.*?)\" subtab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:166",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Business subtab \"(.*?)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:173",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the subtab \"(.+)\" under \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:180",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Maintenence subtab \"(.+)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:187",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the Downtime subtab \"(.+)\" should appear$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps_tabs.rb:194",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select only a host on the status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select downtime option$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I schedule downtime$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I wait and check host downtime status on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:26",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host downtime event gets displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:38",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I schedule service downtime$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:46",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a service on the status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:54",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I wait and check service downtime status on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:62",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the search tab and search a host by \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:73",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the host as the search result$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:80",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a host \"(.+)\" on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:91",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select \"(.+)\" downtime option with \"(.+)\",\"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:102",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^then submit passive check result with \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:108",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that host \"(.+)\" is in \"(.+)\" status$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:114",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^since time should be displayed for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:136",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that host \"(.+)\" is in \"(.+)\" status on host summary page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:143",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that host \"(.+)\" is in \"(.+)\",\"(.+)\" status on Entire Network page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:149",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that host \"(.+)\" is in \"(.+)\" status on Hostgroup summary page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:155",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that host \"(.+)\" is in \"(.+)\" status on Event Console page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:161",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that host is in \"(.+)\" state on Nagios Host Status Details page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:168",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^disable \"(.+)\" for the host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:178",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that \"(.+)\" are disabled for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:208",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^enable \"(.+)\" for the host$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:256",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that \"(.+)\" are enabled for \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:293",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I goto search tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:342",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^enter host name \"(.+)\" to be searched$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:349",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that \"(.+)\" is displayed as a search result$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:357",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^last check time for \"(.+)\" should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:364",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select host availabilty portlet$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:379",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^select custom date-time$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:386",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^calendar should be displayed and date-time should be editable$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:392",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^click acknowledge button and fill details \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:405",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that comment \"(.+)\" is \"(.+)\" on host portlet under events tab,comments section and hostgroup page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:418",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^remove the comment added$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:452",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that comment \"(.+)\" is \"(.+)\" on nagios page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:462",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^set service \"(.+)\" of this host to \"(.+)\" state$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:478",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify \"(.+)\" appears on service page under comment portlet$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:487",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Entire Network tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:493",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify if notifications have been enabled globally$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:499",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify if notifications have been disabled globally$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:507",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify if Flap Detection has been enabled globally$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:513",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify if Flap Detection has been disabled globally$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:519",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Groups for this Hosts link$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:525",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the hostgroup is displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:531",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I close the Groups for this host window$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:537",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a service \"(.+)\" of host \"(.+)\" on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:543",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^then submit passive check result for service with \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:555",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that service \"(.+)\" is in \"(.+)\" status on Entire Network page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:563",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that service is in \"(.+)\" status on Service Summary page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:604",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to \"(.+)\" \"(.+)\" Nagios service page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:626",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that service is in \"(.+)\" status on Nagios service page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:632",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the Services tab on Status Viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:648",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a service group \"(.+)\" on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:654",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that service \"(.+)\" is in \"(.+)\" status on Servicegroup Summary page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:661",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select the \"(.+)\" downtime option with comment \"(.+)\" and time \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:705",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^verify that service \"(.+)\" of host \"(.+)\" is in \"(.+)\" downtime$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:712",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I disable notifications of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:730",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify notifications of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been disabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:740",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I acknowledge the service problem$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:772",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable notifications of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:784",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify notifications of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been enabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:794",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I disable flap detection of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:823",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify flap detection of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been disabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:832",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable flap detection of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:840",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify flap detection of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been enabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:849",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I disable active checks of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:857",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify active checks of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been disabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:866",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable active checks of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:900",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify active checks of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been enabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:909",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I disable passive checks of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:918",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify passive checks of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been disabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:927",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enable passive checks of the service$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:961",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify passive checks of service \"(.+)\" in sg \"(.+)\" of host \"(.+)\" have been enabled$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:970",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select service group \"(.+)\" on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:979",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I schedule \"(.+)\" downtime for all services with comment \"(.+)\" and time \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:987",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify \"(.+)\" downtime of the service \"(.+)\" of host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1007",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" notifications of all services$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1029",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify notifications of service \"(.+)\" of host \"(.+)\" have been \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1045",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" active checks of all services of the \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1058",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify active checks of service \"(.+)\" of host \"(.+)\" have been \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1074",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the host \"(.+)\" to the new host group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1090",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select a hostgroup \"(.+)\" on status viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1095",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I schedule \"(.+)\" downtime for all \"(.+)\" with comment \"(.+)\" and time \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1101",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify \"(.+)\" downtime for the host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1124",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" notifications of all hosts$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1154",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify notifications are \"(.+)\" for the host \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1171",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify active checks of the service \"(.+)\" of host \"(.+)\" have been \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1182",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I verify that service \"(.+)\" is added to service group \"(.+)\" on Status Viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1196",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should verify that service \"(.+)\" is removed from service group on Status Viewer page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1204",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^remove acknowledgement of problem$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/status_viewer_steps.rb:1211",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I specify subnet filter pattern \"(.+?)\" of type \"(.+?)\" and range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/stress_testing_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I launch an Auto Discovery for stress testing$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/stress_testing_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^hosts should be discovered correctly$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/stress_testing_steps.rb:18",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^hosts of \"(.+?)\" for the filter \"(.+?)\" should appear on status viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/stress_testing_steps.rb:24",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the Administration page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the New Staff page under Group$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a new user account with username \"(.*?)\" and password \"(.*?)\" and firstname \"(.*?)\" and lastname \"(.*?)\" and email \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:20",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login with \"(.*?)\" and \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:31",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the dashboard page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:41",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to Site Editor to edit the current dashboard page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:51",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a portlet$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:60",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit the portlet configuration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:85",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add another portlet and edit its configuration$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:101",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the added portlets$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:131",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the added portlets$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:146",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should not see the portlets$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:168",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to Site Editor to add a new page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:176",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I go to User Management under Groups$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:185",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I select Search users$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:197",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete the user with name \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:207",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the user should be deleted$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:214",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^Build and version$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:231",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I am on the User Management page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:245",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to membership management$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:257",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to group management$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:265",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I logout and login with \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:273",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.*?)\" portal user \"(.*?)\" to access modules \"(.*?)\" and \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:285",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^accessing \"(.+)\" and \"(.+)\" should display access error$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:292",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.+)\" and \"(.+)\" should be accessible and should not display any errors$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:300",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I \"(.+)\" user - \"(.+)\" in group - \"(.+)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_management.rb:307",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I navigate to flipkart$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I clicked the login button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I login with the (\\w++) and (\\w++)$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^Error should come$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/user_steps.rb:14",
+    "steps": [
+
+    ]
+  }
+]
